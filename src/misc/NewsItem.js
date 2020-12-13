@@ -2,10 +2,10 @@ import React from "react";
 
 function NewsItem(props) {
   return (
-    <div div className="col-lg-6 sm-12 mb-2">
+    <div div className="col-lg-6 sm-12 mb-3">
       <div className="card" key={props.key}>
         <div className="card-header">
-          <small className="text-info">{props.item.title}</small>
+          {props.item.title}
         </div>
         <div className="card-body">
           <img src={props.item.urlToImage} alt="" className="news-img" />

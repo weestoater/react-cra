@@ -14,6 +14,14 @@ export default function Sports() {
 
   return (
     <>
+      <div class="col-sm-12">
+        <h2>
+          Sports:{" "}
+          <small>
+            <code>various</code>
+          </small>
+        </h2>
+      </div>
       {sports ? (
         sports.articles.map((item, i) => <NewsItem key={i} item={item} />)
       ) : (

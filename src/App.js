@@ -1,16 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.scss";
 import News from "./components/News/News";
 // import Weather from "./components/Weather/Weather";
 import Sports from "./components/Sports/Sports";
+import Header from "./misc/Header";
 
 function App() {
   return (
     <div className="container-fluid">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Header />
       <div className="row">
         <div className="col-sm-6">
           <div className="row">
