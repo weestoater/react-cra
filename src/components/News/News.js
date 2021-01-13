@@ -14,7 +14,7 @@ export default function News() {
 
   return (
     <>
-      <div class="col-sm-12">
+      <div className="col-sm-12">
         <h2>
           News:{" "}
           <small>
