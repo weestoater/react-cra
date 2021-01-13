@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --verbose",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -35,6 +35,8 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^6.1.0",
+    "msw": "^0.24.2",
     "node-sass": "^4.13.1"
   }
 }
