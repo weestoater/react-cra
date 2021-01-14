@@ -5,7 +5,7 @@ import UserItem from "../../misc/UserItem";
 
 export default function Users() {
   const [users, setUsers] = useState(null);
-  const apiUrl = "https://randomuser.me/api/?results=50";
+  const apiUrl = "https://randomuser.me/api/?results=20";
 
   useEffect(() => {
     getApi(apiUrl).then(setUsers);

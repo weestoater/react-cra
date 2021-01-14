@@ -2,7 +2,7 @@ import React from "react";
 
 function NewsItem(props) {
   return (
-    <div className="col-lg-6 sm-12 mb-3">
+    <div className="col-sm-12 mb-3">
       <div className="card" key={props.key}>
         <div className="card-header">{props.item.title}</div>
         <div className="card-body">
@@ -19,7 +19,8 @@ function NewsItem(props) {
               rel="noopener noreferrer"
               title={props.item.title}
             >
-              full article <i className="fa fa-external-link" />
+              full article{" "}
+              <i className="fa fa-external-link" aria-hidden="true" />
             </a>
           </small>
         </div>
